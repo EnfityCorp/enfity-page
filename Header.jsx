@@ -1,10 +1,12 @@
 import React from "react";
 
 function Header() {
+  let url ="";
     return (
    <header>
-    <h1>EnFiTy</h1>
-     <button className="btn">Get started</button>    
+    <nav className="navbar navbar-expand-lg navbar-dark">
+      <a className="navbar-brand" href={url}>EnFiTy</a>
+      <button className="btn ms-auto me-2">Get started</button></nav>
    </header>
     )
 }
